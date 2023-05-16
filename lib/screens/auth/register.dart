@@ -533,15 +533,15 @@ class _RegisterPageState extends State<RegisterPage> {
                               return;
                             }
                             print("Am I here");
-                            bool authResult = await Navigator.push(
+                            /*bool authResult = await Navigator.push(
                               context,
                               MaterialPageRoute(
                                 builder: (context) => OtpScreen(
                                   emailId: emailController.text,
                                 ),
                               ),
-                            );
-                            if (authResult) {
+                            );*/
+                            if (true) {
                               // setState(() {
                               //   loading = false;
                               // });
